@@ -208,10 +208,6 @@ nav {
     height: 78px;
 }
  /****navegador******/
-.nav-ul {
-    /*margin-left: 150px;
-    margin-right: 150px;*/
-}
 
 .nav-li {
     margin-right: 40px;
@@ -248,23 +244,30 @@ p {
 }
 */
 /****estilos carusel******/
+.carousel-inner {
+    height: 640px;
+}
+/*
+.carousel-caption {
+    height: 340px;
+}*/
 .text-banner {
     color: #ffffff;
 }
 .banner1 {
-    background-image: url(/img/carrucel1.jpeg);
+    background-image: url(/img/imgMini/carrucel1-min.jpeg);
     height: 35rem;
     background-position: center;
     background-size: cover;
 }
 .banner2 {
-    background-image: url(/img/carrucel2.jpg);
+    background-image: url(/img/imgMini/carrucel2-min.jpg);
     height: 35rem;
     background-position: center;
     background-size: cover;
 }
 .banner3 {
-    background-image: url(/img/carrcuel3.jpg);
+    background-image: url(/img/imgMini/carrcuel3-min.jpg);
     height: 35rem;
     background-position: center;
     background-size: cover;
@@ -492,10 +495,9 @@ footer h3 {
     margin-top: 90px;
 }
 .img-cotizador {
-    background-image: url(/img/cotizacion.jfif);
-    background-position: center;
-    background-size: cover;
-    height: 30rem;
+    width: 100%;
+    height: 70%;
+    box-shadow: 10px 5px 15px 2px rgba(34, 34, 34, 0.83);
     border-radius: 5px;
 }
 .back-gray-cotizador {
@@ -596,6 +598,7 @@ footer h3 {
     width: 95%;
     height: 95%;
     border-radius: 5px;
+    box-shadow: 10px 5px 15px 2px rgba(34, 34, 34, 0.83);
 }
 /*******Fixture********/
 .text-fixture {
@@ -606,6 +609,25 @@ footer h3 {
     height: 90%;
     border-radius: 5px;
     box-shadow: 10px 5px 15px 2px rgba(34, 34, 34, 0.83);
+}
+
+/*************Calidad*************/
+.img-calidad {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 10px 5px 15px 2px rgba(34, 34, 34, 0.83);
+}
+.text-calidad {
+    text-align: justify;
+}
+.subtitulo-calidad {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.img-acabados {
+    box-shadow: 4px 3px 7px 3px #8f8f8f;
+    border-radius: 5px;
+
 }
 /*********************************
 *        Media Querys             *
@@ -620,6 +642,10 @@ footer h3 {
     .caja-mapa{
         width: 94vw;
     }
+    .img-cotizador {
+        display: none;
+    }
+ }
  }
 
  
